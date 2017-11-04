@@ -1,4 +1,4 @@
-package nagoya.code4;
+package nagoya.iot;
 
 /**
  * Hello world!

@@ -1,4 +1,4 @@
-package nagoya.code4;
+package nagoya.iot;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

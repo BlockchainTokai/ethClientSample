@@ -1,4 +1,4 @@
-package nagoya.code4;
+package nagoya.iot;
 
 import java.io.IOException;
 
@@ -67,6 +67,11 @@ public class NobyCoinClient {
 			
 		};
 		
+		
+		pa.send().getAccountIds().forEach(System.out::println);
+		pa.send().getAccountIds().forEach((aaa) -> {
+			System.out.println(aaa.substring(0, 1));
+		});
 		
 		
 		return js.toString();

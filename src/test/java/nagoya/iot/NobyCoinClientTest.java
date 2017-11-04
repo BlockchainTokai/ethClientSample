@@ -1,8 +1,9 @@
-package nagoya.code4;
+package nagoya.iot;
 
 import java.io.IOException;
 
 import junit.framework.TestCase;
+import nagoya.iot.NobyCoinClient;
 
 public class NobyCoinClientTest extends TestCase {
 
