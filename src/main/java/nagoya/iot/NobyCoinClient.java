@@ -22,7 +22,7 @@ public class NobyCoinClient {
 	 */
 	public String accessEthe() throws IOException {
 
-		Web3j web3 = Web3j.build(new HttpService());
+		Web3j web3 = Web3j.build(new HttpService("https://192.168.5.5"));
 		
 		Web3ClientVersion web3ClientVersion = web3.web3ClientVersion().send();
 		
@@ -67,11 +67,6 @@ public class NobyCoinClient {
 			
 		};
 		
-		
-		pa.send().getAccountIds().forEach(System.out::println);
-		pa.send().getAccountIds().forEach((aaa) -> {
-			System.out.println(aaa.substring(0, 1));
-		});
 		
 		
 		return js.toString();
