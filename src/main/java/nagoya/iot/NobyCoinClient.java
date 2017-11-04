@@ -22,7 +22,7 @@ public class NobyCoinClient {
 	 */
 	public String accessEthe() throws IOException {
 
-		Web3j web3 = Web3j.build(new HttpService("https://192.168.5.5"));
+		Web3j web3 = Web3j.build(new HttpService());
 		
 		Web3ClientVersion web3ClientVersion = web3.web3ClientVersion().send();
 		
